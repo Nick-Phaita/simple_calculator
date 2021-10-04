@@ -1,0 +1,21 @@
+fun main() {
+    println("Enter first number:")
+    val num1 = Integer.valueOf(readLine())
+    println("Enter operator:")
+    val op = readLine()
+    println("Enter second number:")
+    val num2 = Integer.valueOf(readLine())
+    println("The answer is=")
+    if (op == "+")
+        println((num1+num2))
+    else if (op == "-")
+        println((num1-num2))
+    else if (op == "*")
+        println((num1*num2))
+    else if (op == "/")
+        println((num1/num2))
+    else if (op == "%")
+        println((num1%num2))
+    else (println("Cannot recognize operator. Please try again."))
+
+}
